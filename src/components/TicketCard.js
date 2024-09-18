@@ -3,8 +3,6 @@ import './TicketCard.css';
 import DotMenu from '../assets/dot-menu.svg';
 
 const TicketCard = ({ ticket }) => {
-	const priorityLabels = ['No priority', 'Low', 'Medium', 'High', 'Urgent'];
-
 	return (
 		<div className='ticket-card'>
 			<div className='ticket-header'>
